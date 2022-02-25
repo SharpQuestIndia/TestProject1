@@ -26,7 +26,7 @@ namespace TestProject
         public static void BeforeFeature()
         {
             DriverOptions caps = new AppiumOptions();
-            caps.AddAdditionalCapability(MobileCapabilityType.DeviceName, "emulator-5554");
+            caps.AddAdditionalCapability(MobileCapabilityType.DeviceName, "test");
             caps.AddAdditionalCapability(MobileCapabilityType.App, "/home/runner/work/clarus-android/clarus-android/android-automation/apk/app-debug.apk");
             caps.AddAdditionalCapability("automationName", "UiAutomator2");
             caps.AddAdditionalCapability(MobileCapabilityType.PlatformName, "Android");
